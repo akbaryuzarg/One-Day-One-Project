@@ -1,11 +1,11 @@
 
-# One Day One Project
+# One Day One Project 💻
 
 My personal project to learn fundamentals HTML, CSS, and JavaScript. Build without using any framework.
 
 
 
-## Preview Project
+## Preview Project 📚
 
 
 | No   | Title               | Preview                                           |
