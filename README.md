@@ -8,6 +8,6 @@ My personal project to learn fundamentals HTML, CSS, and JavaScript. Build witho
 ## Preview Project
 
 
-| No   | Title               | Preview                |
-|:----:| :-------------------:| :------------------------- |
+| No   | Title               | Preview                                           |
+|:----:| :------------------:| :------------------------------------------------:|
 | `01` | Expanding Picture   | [Preview](https://expanding-picture.netlify.app/) |
