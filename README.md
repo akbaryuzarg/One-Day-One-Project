@@ -1,8 +1,8 @@
 
 # One Day One Project
 
-My personal project to learn fundamental HTML, CSS, and JavaScript
-@akbaryuzarg
+My personal project to learn fundamentals HTML, CSS, and JavaScript. Build without using any framework.
+
 
 
 ## Preview Project
