@@ -1,7 +1,7 @@
 
 # One Day One Project
 
-My personal project to learn fundamentals HTML, CSS, and JavaScript
+My personal project to learn fundamental HTML, CSS, and JavaScript
 
 
 ## Preview Project
