@@ -49,3 +49,20 @@ body {
    text-align: center;
    color: black;
 }
+
+@media (max-width: 480px) {
+   .container {
+      width: 100vw;
+      margin: 0 30px;
+   }
+   .box:nth-of-type(4),
+   .box:nth-of-type(5) {
+      display: none;
+   }
+}
+
+@media (max-width: 1001px) {
+   .box:nth-of-type(4) {
+      display: none;
+   }
+}
