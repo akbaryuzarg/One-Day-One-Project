@@ -11,3 +11,4 @@ My personal project to learn fundamentals HTML, CSS, and JavaScript. Build witho
 | No   | Title               | Preview                                           |
 |:----:| :------------------:| :------------------------------------------------:|
 | `01` | Expanding Picture   | [Preview](https://expanding-picture.netlify.app/) |
+| `02` | Drum Kit            | [Preview](https://akbar-drum-kit.netlify.app/)    |
