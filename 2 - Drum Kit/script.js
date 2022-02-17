@@ -9,6 +9,15 @@ function playSound(e) {
 
    sound.currentTime = 0;
    sound.play();
+   // console.log(e);
+}
+
+function playSoundClick(element, data_key) {
+   const sound = document.querySelector(`audio[data-key="${data_key}"]`);
+   element.classList.toggle('active');
+   sound.play();
+   // console.log(element);
+   // console.log(data_key);
 }
 
 function removeTransition(e) {
@@ -18,7 +27,6 @@ function removeTransition(e) {
    } 
    this.classList.remove('active'); // ngilangin class active kalau transform nya udh beres
 }
-
 
 const keys = Array.from(document.querySelectorAll('.key')); // ngambil div keys (bentuknya node list, jadi ubah ke array)
 // Foreach untuk pengulangan tiap elemen array
