@@ -15,6 +15,7 @@ function playSound(e) {
 function playSoundClick(element, data_key) {
    const sound = document.querySelector(`audio[data-key="${data_key}"]`);
    element.classList.toggle('active');
+   sound.currentTime = 0;
    sound.play();
    // console.log(element);
    // console.log(data_key);
