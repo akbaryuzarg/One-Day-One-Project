@@ -13,4 +13,4 @@ My personal project to learn fundamentals HTML, CSS, and JavaScript. Build witho
 | `01` | Expanding Picture   | [Preview](https://expanding-picture.netlify.app/) |
 | `02` | Drum Kit            | [Preview](https://akbar-drum-kit.netlify.app/)    |
 | `03` | Clock               | [Preview](https://akbar-clock.netlify.app/)       |
-| `04` | Typing Clock        | [Preview](https://typing-clock.netlify.app/)       |
+| `04` | Typing Clock        | [Preview](https://typing-clock.netlify.app/)      |
