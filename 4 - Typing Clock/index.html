@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Effect -->
+  <div class="wrapper">
+    <ul class="bg-bubbles heart-shape">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>  
+   
+  <!-- Text -->
+  
+  <!-- Clock -->
+  
+  <div class="konten">
+    <h1 class="type"></h1>
+    
+    <div id="clock"></div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <footer>Created with love by akbaryuzarg</footer>
+  </div>
+
+<script src="typed.js"></script>
+<script>
+  setInterval(displayclock, 100);
+  function displayclock() {
+    var time = new Date();
+    hrs = time.getHours();
+    min = time.getMinutes();
+    
+    if (hrs < 10) {hrs = '0' + hrs;}; 
+    if (min < 10) {min = '0' + min;};
+    document.getElementById('clock').innerHTML = hrs + ':' + min;
+  }
+
+  var sapaan, kalimat;
+  var waktu = new Date();
+  var jam = waktu.getHours();
+
+  if (jam >= 5 && jam < 12) {
+    sapaan = 'Good Morning';
+    kalimat = 'Have a Great Day';
+    gambar = document.querySelector('div.wrapper');
+    gambar.style.background = 'linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%)';
+    gambar.style.background = '-webkit-linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%)'
+
+  } else if (jam >= 12 && jam < 18) {
+    sapaan = 'Good Afternoon';
+   //  kalimat = 'Tetep Semangat, Jangan Lupa Makan!'; 
+    gambar = document.querySelector('div.wrapper');
+    gambar.style.background = 'linear-gradient(to bottom right, #F8FFA2 0%, #E47519 100%)'
+    gambar.style.background = '-webkit-linear-gradient(to bottom right, #F8FFA2 0%, #E47519 100%)'
+
+  } else {
+    sapaan = 'Good Evening';
+    kalimat = 'Selamat Beristirahat';
+    gambar = document.querySelector('div.wrapper');
+    gambar.style.background = 'linear-gradient(to bottom right, #01162E 0%, #01426D 100%)'
+    gambar.style.background = '-webkit-linear-gradient(to bottom right, #01162E 0%, #01426D 100%)'
+  }
+  var typed = new Typed('.type', {
+    strings: 
+    [sapaan + ', Asri.', kalimat],
+    //[sapaan + ', Asri.', 'I hope you see this', 'Maaf, perkataanku kemarin bikin kamu sakit hati','Aku baru sadar, ga sepatutnya aku ngomong kaya gitu ke kamu','I Love You So Much Asri','If you see this, please call me ok :('],
+    typeSpeed: 55,
+    backSpeed: 30,
+    smartBackspace: true // Default value
+  });
+</script>
+</body>
+</html>
