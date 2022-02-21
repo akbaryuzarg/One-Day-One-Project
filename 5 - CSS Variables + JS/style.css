@@ -1,7 +1,7 @@
 :root {
    --color: #ffc600;
    --spacing: 10px;
-   --blur: 10px;
+   --blur: 0px;
 }
 
 .h1 {
@@ -11,7 +11,7 @@
 img {
    background-color: var(--color);
    padding: var(--spacing);
-   /* filter: blur(var(--blur)); */
+   filter: blur(var(--blur));
 }
 
 
