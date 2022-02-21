@@ -14,3 +14,4 @@ My personal project to learn fundamentals HTML, CSS, and JavaScript. Build witho
 | `02` | Drum Kit            | [Preview](https://akbar-drum-kit.netlify.app/)    |
 | `03` | Clock               | [Preview](https://akbar-clock.netlify.app/)       |
 | `04` | Typing Clock        | [Preview](https://typing-clock.netlify.app/)      |
+| `05` | CSS Variables + JS  | [Preview](https://css-variables-js.netlify.app/)  |
