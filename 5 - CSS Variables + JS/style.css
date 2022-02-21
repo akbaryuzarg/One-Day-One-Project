@@ -35,6 +35,7 @@ body {
    justify-content: center;
    overflow: hidden;
    border: 1px solid red;
+   padding-top: 5%;
 }
 
 .container {
