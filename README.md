@@ -16,3 +16,4 @@ My personal project to learn fundamentals HTML, CSS, and JavaScript. Build witho
 | `04` | Typing Clock        | [Preview](https://typing-clock.netlify.app/)      |
 | `05` | CSS Variables + JS  | [Preview](https://css-variables-js.netlify.app/)  |
 | `06` | Array Method        | [None]  |
+| `07` | Pick a Color        | [Preview](https://akbar-pick-color.netlify.app/)  |
