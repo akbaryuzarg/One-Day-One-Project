@@ -1,7 +1,8 @@
 
 # One Day One Project 💻
 
-My personal project to learn fundamentals HTML, CSS, and JavaScript. Build without using any framework. All of these project are responsive.
+My personal project to learn fundamentals HTML, CSS, and JavaScript. Build without using any framework. <br />
+All of these project are responsive.
 
 
 
