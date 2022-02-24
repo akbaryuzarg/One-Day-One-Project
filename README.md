@@ -6,7 +6,7 @@ All of these project are responsive.
 
 
 
-## Preview Project 📚
+## Preview Project 🛠️
 
 
 | No   | Title               | Preview                                           |
@@ -20,3 +20,10 @@ All of these project are responsive.
 | `07` | Pick a Color         | [Preview](https://akbar-pick-color.netlify.app/)  |
 | `08` | Flexbox - Nav        | [Preview](https://learn-flexbox-nav.netlify.app/) |
 | `09` | Flexbox - Reordering | [Preview](https://akbar-flexbox-reordering.netlify.app/) |
+
+
+
+## Acknowledgements 📚
+- [JavaScript30](https://javascript30.com/) by [Wes Bos](https://github.com/wesbos)
+- [What The Flexbox?!](https://flexbox.io/) by [Wes Bos](https://github.com/wesbos)
+
