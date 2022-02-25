@@ -1,0 +1,99 @@
+/* Some CSS Setup - nothing to do with flexbox */
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+   font-family: sans-serif;
+   margin: 0;
+   background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+.wrapper {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding:50px;
+   /* border: 1px solid black; */
+   /* display: flex;
+   flex-direction: column;
+   flex-wrap: wrap; */
+}
+
+img {
+   max-width:100%;
+}
+
+a {
+   color:white;
+   text-decoration: none;
+   font-size: 15px;
+   background:rgba(0,0,0,0.2);
+   padding:20px 5px;
+}
+a:hover {
+   background:rgba(0,0,0,0.4);
+}
+
+/* Flex Container */
+/* Flex Container Cuma Bisa Punya 1 Child */
+.slider-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0; 
+   display: flex;
+}
+
+/* Flex Items Yang Jadi Flex Container Juga */
+.slider-nav li {
+   flex: 3;
+   /* border: 1px solid red; */
+   display: flex;
+   text-align: center;
+}
+.slider-nav .arrow {
+   flex: 1;
+   font-size: 1rem;
+}
+.slider-nav .arrow a {
+   font-size: 1.5rem;
+}
+
+/* Flex Item Dari Container li */
+/* Jadi Flex Container Juga */
+.slider-nav a {
+   flex-basis: 100%;
+   display: flex;
+   align-items: center;
+}
+.slider-nav span {
+   display: block;
+   width: 100%;
+}
+
+@media all and (max-width:1000px) {
+   /* .slider-nav li:nth-child(3) {
+      display: none;
+   } */
+   .slider-nav li a {
+      font-size: .8rem;
+   }
+   .slider-nav .arrow a {
+      font-size: 1rem;
+   }
+}
+
+@media all and (max-width:500px) {
+   /* .slider-nav li:nth-child(3) {
+      display: none;
+   } */
+   .slider-nav li a {
+      font-size: .5rem;
+   }
+   .slider-nav .arrow a {
+      font-size: 1rem;
+   }
+}
