@@ -21,6 +21,7 @@ All of these project are responsive.
 | `08` | Flexbox - Nav        | [Preview](https://learn-flexbox-nav.netlify.app/) |
 | `09` | Flexbox - Reordering | [Preview](https://akbar-flexbox-reordering.netlify.app/) |
 | `10` | Flexbox - Nest | [Preview](https://akbar-flexbox-nest.netlify.app/) |
+| `11` | Flexbox - Grid | [Preview](https://akbar-flexbox-grid.netlify.app/) |
 
 
 
